@@ -129,7 +129,7 @@ The pre-trained models of DeNuC are available at [DeNuC (HuggingFace)](https://h
             <td style="text-align: center;">81.33</td>
             <td style="text-align: center;">69.94</td>
             <td style="text-align: center;">93.57</td>
-            <td style="text-align: center;">76.36</td>
+            <td style="text-align: center;">76.37</td>
         </tr>
         <tr>
             <td style="text-align: center;">ResNet-50</td>
