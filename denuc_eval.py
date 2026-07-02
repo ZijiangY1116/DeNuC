@@ -114,7 +114,12 @@ def eval_denuc(eval_args):
     }
     for dataset_name in eval_args.eval_dataset.split(','):
         dataset_name = dataset_name.strip()
-        if dataset_name in ['puma', 'brcam2c', 'ocelot', 'pannuke', 'puma_512', 'brcam2c_512', 'ocelot_512']:
+        if dataset_name in [
+            'puma', 'brcam2c', 'ocelot', 'pannuke',
+            'cpm15', 'cpm17', 'tnbc', 'kumar', 'consep', 'cryonuseg',
+            'pannuke123', 'pannuke231', 'pannuke312',
+            'puma_512', 'brcam2c_512', 'ocelot_512',
+        ]:
             dataset_meta = pd.read_csv(f'./dataset/{dataset_name}/meta.csv')
             for _, row in dataset_meta.iterrows():
                 meta_dict['sample_path'].append(os.path.join(f'./dataset/{dataset_name}', f"{row['sample_name']}.npy"))

@@ -106,7 +106,11 @@ def train_denuc(args):
     }
     for dataset_name in args.datasets.split(','):
         dataset_name = dataset_name.strip()
-        if dataset_name in ['puma', 'brcam2c', 'ocelot']:
+        if dataset_name in [
+            'puma', 'brcam2c', 'ocelot',
+            'cpm15', 'cpm17', 'tnbc', 'kumar', 'consep', 'cryonuseg',
+            'pannuke123', 'pannuke231', 'pannuke312',
+        ]:
             dataset_meta = pd.read_csv(f'./dataset/{dataset_name}/meta.csv')
             for _, row in dataset_meta.iterrows():
                 meta_dict['sample_path'].append(os.path.join(f'./dataset/{dataset_name}', f"{row['sample_name']}.npy"))
