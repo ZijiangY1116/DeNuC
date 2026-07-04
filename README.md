@@ -1,5 +1,13 @@
 # DeNuC: Decoupling Nuclei Detection and Classification in Histopathology
 
+<div align="center">
+
+<a href='https://arxiv.org/abs/2603.04240'><img src='https://img.shields.io/badge/Arxiv-Paper-Red?style=flat&logo=arxiv&logoColor=red&color=red'></a>
+<a href='https://github.com/ZijiangY1116/DeNuC'><img src='https://img.shields.io/badge/GitHub-Code-blue?style=flat&logo=github&color=blue'></a>
+<a href='https://huggingface.co/datasets/ZijiangY/DeNuC'><img src='https://img.shields.io/badge/HuggingFace-Model-Yellow?style=flat&logo=huggingface&color=yellow'></a>
+
+</div>
+
 This is the official code repository for the paper "DeNuC: Decoupling Nuclei Detection and Classification in Histopathology".
 
 <div  align="center">    
