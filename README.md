@@ -11,7 +11,7 @@ In this work, we reveal that jointly optimizing nuclei detection and classificat
 ## News
 
 - ✨️ **[2026-07]**: Supported [fast whole-image nuclei inference](#whole-image-inference) for arbitrary H&E images. Enable WSI-level nuclei detection in only a few minutes without any preprocessing. ⚡
-- ✨️ **[2026-06]**: Completed nuclei detection training on a new dataset that combines multiple public datasets, followed by comprehensive performance evaluation and OOD experiments. 🔬 Stronger, more robust, and more general-purpose nuclei detection models.💪💪💪
+- ✨️ **[2026-06]**: Completed nuclei detection training on a new dataset that [combines multiple public datasets](#enhanced-detection-model), followed by [comprehensive performance evaluation and OOD experiments](#pre-trained-models-and-results). 🔬 Stronger, more robust, and more general-purpose nuclei detection models.💪💪💪
 - ✨️ **[2026-05]**: Accepted to MICCAI 2026 [Early Accept]! 🎉🎉🎉
 - ✨️ **[2026-03]**: Release the training code, pre-trained weights, and evaluation code. 🚀
 
